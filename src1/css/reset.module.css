@@ -1,0 +1,67 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,
+h4,h5,h6,pre,code,form,fieldset,legend,input,
+textarea,p,blockquote,th,td,a {
+    margin:             0;
+    padding:            0;
+}
+
+a:link, a:visited, a:focus {
+/*    color:                      #000000;*/
+    text-decoration:            none;
+    border-bottom:              none;
+    outline: none;
+}
+
+table {
+    border-collapse:    collapse;
+    border-spacing:     0;
+}
+
+fieldset,
+img {
+    border:             0;
+}
+ 
+ol,ul {
+    list-style:         none;
+}
+ 
+caption,th {
+    text-align:         left;
+}
+
+h1,h2,h3,h4,h5,
+h6 {
+    font-size:          100%;
+    font-weight:        normal;
+}
+
+q:before,
+q:after {
+    content:            '';
+}
+
+input,
+textarea,
+select {
+    font-family:        inherit;
+    font-size:          inherit;
+    font-weight:        inherit;
+}
+
+:link, :visited {
+    color:                      #000000;
+    text-decoration:            none;
+    border:              none;
+}
+
+::before,
+::after {
+    box-sizing:             inherit;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}

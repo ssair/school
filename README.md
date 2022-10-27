@@ -1,4 +1,4 @@
-# lyceum-144
+# school
 
 ## Project setup
 ```

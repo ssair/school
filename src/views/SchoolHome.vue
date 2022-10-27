@@ -57,7 +57,7 @@
                   <img src="../assets/images/engineer-lyceum.jpg" alt="foto">
                 </picture>
                 <div class="section_2_content" id="item_3_content">
-                  <h2>Региональная инновационная площадка</h2>
+                  <h2>Проекты</h2>
                 </div>
               </router-link>
             </transition>
@@ -103,7 +103,7 @@
                   <img src="../assets/images/venice.jpg" alt="foto">
                 </picture>
                 <div class="section_2_content" id="item_8_content">
-                  <h2>Международное сотрудничество нашего лицея</h2>
+                  <h2>Путешествия</h2>
                 </div>
               </router-link>
             </transition>
@@ -187,7 +187,7 @@ export default {
         elemHeader.style.borderBottom = "none"
       }
       if ( y >= 95) {
-        elemHeader.style.backgroundColor = 'rgba(254, 254, 254, 0)';
+        elemHeader.style.backgroundColor = 'rgba(254, 254, 254, .9)';
         elemHeader.style.backdropFilter = "blur(0px)";
         elemHeader.style.webkitBackdropFilter = "blur(0px)";
         elemHeader.style.borderBottom = "none"
@@ -279,7 +279,7 @@ export default {
   width:                  100%;
   height:                 100vh;
   transition:             all 1s ease-out;
-  background-image:       url(../assets/images/spb-bg-1.jpeg);
+  background-image:       url(../assets/images/tsgymnasium.png);
   background-position:    center center;
   background-size:        cover;
   background-color:       #fff;
@@ -288,19 +288,19 @@ export default {
 
 @media (min-width: 48rem) {
   #section_1 {
-    background-image:       url(../assets/images/spb-bg-2.jpeg);
+    background-image:       url(../assets/images/tsgymnasium.png);
   }
 }
 
 @media (min-width: 48rem) {
   #section_1 {
-    background-image:       url(../assets/images/spb-bg-3.jpeg);
+    background-image:       url(../assets/images/tsgymnasium.png);
   }
 }
 
 @media (min-width: 75rem) {
   #section_1 {
-    background-image:       url(../assets/images/spb-bg-4.jpeg);
+    background-image:       url(../assets/images/tsgymnasium.png);
     background-attachment:  fixed;
   }
 }

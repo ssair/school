@@ -12,11 +12,12 @@
           <div id="page__header__logo">
 
             <div></div>
-            <img src="./assets/images/logo-200_thumbnail200.png" alt="лицей 144">
+            <img src="./assets/images/tsgymnasium_logo.png" alt="Царскосельская гимназия">
             <div></div>
 
           </div>
 
+          <!--
           <div id="page__header__name">
 
             <div></div>
@@ -25,6 +26,7 @@
             <div></div>
 
           </div>
+          -->
 
         </router-link>
 
@@ -55,7 +57,7 @@
     </main>
 
     <footer id="page__footer">
-      Лицей 144 - Учебный проект
+      Царскосельская гимназия - 2022
     </footer>
 
   </div>
@@ -138,7 +140,7 @@ html {
   top:                    0;
   place-content:          center;
   place-items:            center;
-  background-color:       rgba(254, 254, 254, .4);
+  background-color:       rgba(254, 254, 254, .7);
   backdrop-filter:        blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-bottom:          1px solid #d5dddf;
@@ -179,7 +181,7 @@ html {
 
 #page__header__left {
   display:                grid;
-  grid-template-columns:  3.125rem 1fr;
+  grid-template-columns:  9.375rem;
   height:                 var(--header-height-small);
   max-height:             var(--header-height-small);
   min-width:              9.375rem;
@@ -188,7 +190,7 @@ html {
 
 @media (min-width: 960px) {
   #page__header__left {
-    grid-template-columns:  3.75rem 1fr;
+    grid-template-columns:  11.25rem;
     height:                 var(--header-height);
     max-height:             var(--header-height);
     min-width:              11.25rem;
@@ -205,9 +207,9 @@ html {
 
 #page__header__logo {
   display:                grid;
-  grid-template-columns:  var(--header-height-small);
+  grid-template-columns:  9.375rem;
   grid-template-rows:     0.3125rem 2.625rem 0.3125rem;
-  width:                  var(--header-height-small);
+  width:                  9.375rem;
   height:                 var(--header-height-small);
   max-height:             var(--header-height-small);
   background:             none;
@@ -217,9 +219,9 @@ html {
 }
 
 #page__header__logo > img {
-  width:                  2.625rem;
+  width:                  9.375rem;
   height:                 2.625rem;
-  object-fit:             contain;
+  min-width:             100%;
   border-radius:          1.3125rem;
 }
 

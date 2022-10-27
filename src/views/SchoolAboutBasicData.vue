@@ -20,9 +20,9 @@
                 </div>
                 <div class="item_inner">
                   <p class="content_item_subname">Полное:</p>
-                  <p class="content_item_subname" style="color: #333; padding-bottom: 9px">Государственное бюджетное общеобразовательное учреждение лицей № 144 Калининского района Санкт-Петербурга</p>
+                  <p class="content_item_subname" style="color: #333; padding-bottom: 9px">Автономная некоммерческая общеобразовательная организация «Царскосельская гимназия»</p>
                   <p class="content_item_subname">Сокращенное:</p>
-                  <p class="content_item_subname" style="color: #333">ГБОУ лицей № 144 Калининского района Санкт-Петербурга</p>
+                  <p class="content_item_subname" style="color: #333">АНОО «Царскосельская гимназия</p>
 
                 </div>
               </article>
@@ -32,21 +32,35 @@
                   <p class="content_item_name">Дата создания </p>
                 </div>
                 <div class="item_inner">
-                  <p class="content_item_subname" style="color: #333; padding-bottom: 9px">18 ноября 2002 года</p>
-                  <!--<p class="content_item_subname">( Дата внесения соответствующей записи в единый
-                    государственный реестр юридических лиц (ЕГРЮЛ) в соответствии с п. 2 ст. 51 ГК РФ и п. 2 ст. 11
-                    Федерального закона от 08.08.2001 № 129-ФЗ «О государственной регистрации юридических лиц и
-                    индивидуальных предпринимателей»)
-                  </p>-->
+                  <p class="content_item_subname" style="color: #333; padding-bottom: 9px">15.08.2014</p>
                 </div>
               </article>
 
               <article class="content_item">
                 <div class="item">
-                  <p class="content_item_name">Учредитель</p>
+                  <p class="content_item_name">Учредители</p>
                 </div>
                 <div class="item_inner">
-                  <p class="content_item_subname" style="color: #333; padding-bottom: 9px">Комитет по образованию города Санкт-Петербурга</p>
+                  <p class="content_item_subname" style="color: #333; padding-bottom: 9px">
+                    Пасынков Максим Викторович,<br>
+                    Цветкова Любовь Александровна,<br>
+                    Миклушонок Дмитрий Владимирович
+                  </p>
+                </div>
+              </article>
+
+              <article class="content_item">
+                <div class="item">
+                  <p class="content_item_name">Место нахождения </p>
+                </div>
+                <div class="item_inner">
+                  <p class="content_item_subname" style="color: #333; padding-bottom: 9px">196601, Санкт-Петербург, г. Пушкин, ул. Конюшенная, д. 36, литера, А</p>
+
+                    <iframe style="margin-top: 40px; border-radius: 15px; border: 1px #ddd solid"
+                        src="https://yandex.ru/map-widget/v1/?um=constructor%3Aba6fdb5fd54c18c03dde2a9f051e3501a272f8d3b7ff6de442a10db7ba0ab982&amp;source=constructor" width="500" height="400" frameborder="0">
+
+                    </iframe>
+
                 </div>
               </article>
 
@@ -61,31 +75,10 @@
 
               <article class="content_item">
                 <div class="item">
-                  <p class="content_item_name">Место нахождения </p>
-                </div>
-                <div class="item_inner">
-                  <p class="content_item_subname">Основная и средняя школа:</p>
-                  <p class="content_item_subname" style="color: #333; padding-bottom: 9px">Санкт-Петербург, Суздальский пр., д. 93, корп. 2</p>
-                  <p class="content_item_subname">Начальная школа:</p>
-                  <p class="content_item_subname" style="color: #333">Санкт-Петербург, ул.Тимуровская, д. 15, корп. 2</p>
-                  <iframe style="margin-top: 40px; border-radius: 15px; border: 1px #ddd solid"
-                          src="https://yandex.ru/map-widget/v1/?um=constructor%3A1a427c9f326801fe6480b4fa2ae33a03a83de65563294cf49a84b19697a218d2&amp;source=constructor"
-                          width="500" height="400" frameborder="0">
-
-                  </iframe>
-
-                </div>
-              </article>
-
-              <article class="content_item">
-                <div class="item">
                   <p class="content_item_name">Режим и график работы </p>
                 </div>
                 <div class="item_inner">
-                  <p class="content_item_subname">Основная и средняя школа:</p>
-                  <p class="content_item_subname" style="color: #333; padding-bottom: 9px">Понедельник-суббота, 8.30-20.00, выходные: воскресенье, праздничные дни</p>
-                  <p class="content_item_subname">Начальная школа:</p>
-                  <p class="content_item_subname" style="color: #333">Понедельник-суббота, 8.30-19.00, выходные: суббота, воскресенье, праздничные дни</p>
+                  <p class="content_item_subname" style="color: #333; padding-bottom: 9px">Понедельник-пятница, 8.30-20.00, выходные: суббота, воскресенье, праздничные дни</p>
                 </div>
               </article>
 
@@ -94,10 +87,7 @@
                   <p class="content_item_name">Контактные телефоны </p>
                 </div>
                 <div class="item_inner">
-                  <p class="content_item_subname">Основная и средняя школа:</p>
-                  <p class="content_item_subname" style="color: #333; padding-bottom: 9px">531-57-42</p>
-                  <p class="content_item_subname">Начальная школа:</p>
-                  <p class="content_item_subname" style="color: #333">531-57-42</p>
+                  <p class="content_item_subname" style="color: #333; padding-bottom: 9px">+7(931)361-42-01</p>
                 </div>
               </article>
 
@@ -107,10 +97,9 @@
                 </div>
                 <div class="item_inner">
                   <p class="content_item_subname">
-                    <a style="color: royalblue" href="mailto:lyceum144spb@obr.gov.spb.ru">lyceum144spb@obr.gov.spb.ru</a>
-                  </p>
-                  <p class="content_item_subname">
-                    <a style="color: royalblue" href="mailto:lyceum144spb@obr.gov.spb.ru">gimn144spb@yandex.ru</a>
+
+                    <a style="color: royalblue" href="mailto:tsgymnasium@gmail.com">tsgymnasium@gmail.com</a>
+
                   </p>
                 </div>
               </article>
@@ -121,7 +110,7 @@
                 </div>
                 <div class="item_inner">
                   <p class="content_item_subname">
-                    <a style="color: royalblue" href="http://www.lyceum144.ru">http://www.lyceum144.ru</a>
+                    <a style="color: royalblue" href="https://www.tsgymnasium.ru">https://www.tsgymnasium.ru</a>
                   </p>
                 </div>
               </article>
@@ -131,10 +120,7 @@
                   <p class="content_item_name">Места осуществления образовательной деятельности</p>
                 </div>
                 <div class="item_inner">
-                  <p class="content_item_subname">Основная и средняя школа:</p>
-                  <p class="content_item_subname" style="color: #333; padding-bottom: 9px">Санкт-Петербург, Суздальский пр., д. 93, корп. 2</p>
-                  <p class="content_item_subname">Начальная школа:</p>
-                  <p class="content_item_subname" style="color: #333">Санкт-Петербург, ул.Тимуровская, д. 15, корп. 2</p>
+                  <p class="content_item_subname" style="color: #333; padding-bottom: 9px">Санкт-Петербург, г. Пушкин, ул. Конюшенная, д. 36, литера, А</p>
                 </div>
               </article>
 

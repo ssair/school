@@ -25,14 +25,14 @@
                 <div class="item_inner">
                   <router-link to="/school-administration/director" tag="p"
                                class="content_item_subname is_hover"
-                               style="padding-bottom: 9px">Федорова Лолита Анатольевна
+                               style="padding-bottom: 9px">Пучкова Ксения Владимировна
                   </router-link>
                   <p class="content_item_subname" style="color: #666">Время приема:</p>
                   <p class="content_item_subname">вторник, четверг - с 15:00 до 18:00</p>
                   <p class="content_item_subname" style="color: #666">Сайт:</p>
-                  <p class="content_item_subname">lyceum144.ru </p>
+                  <p class="content_item_subname">tsgymnasium.ru</p>
                   <p class="content_item_subname" style="color: #666">E-mail:</p>
-                  <p class="content_item_subname">lyceum144spb@obr.gov.spb.ru </p>
+                  <p class="content_item_subname">tsgymnasium@gmail.com</p>
 
                 </div>
               </article>
@@ -41,6 +41,7 @@
                 <div class="item">
                   <p class="content_item_name">Педагогический совет</p>
                 </div>
+                <!--
                 <div class="item_inner">
                   <p class="content_item_subname" style="color: #666">Председатель:</p>
                   <router-link to="/school-administration/director" tag="p"
@@ -63,13 +64,14 @@
                     </div>
                   </a>
                 </div>
-
+                      -->
               </article>
 
               <article class="content_item">
                 <div class="item">
                   <p class="content_item_name">Общее собрание работников</p>
                 </div>
+                <!--
                 <div class="item_inner">
                   <p class="content_item_subname" style="color: #666">Председатель:</p>
                   <router-link to="/" tag="p"
@@ -92,6 +94,7 @@
                     </div>
                   </a>
                 </div>
+                -->
 
               </article>
 
@@ -109,12 +112,16 @@
 
             <div class="content">
 
+
+
               <article class="content_item">
                 <div class="item">
                   <router-link to="/odod" tag="p"
                                class="content_item_name is_hover">Отделение дополнительного образования детей
                     </router-link>
                 </div>
+
+                <!--
                 <div class="item_inner">
                   <p class="content_item_subname" style="color: #666">Руководитель структурного подразделения:</p>
                   <router-link to="/school-administration/petchenko" tag="p"
@@ -138,7 +145,10 @@
                   </a>
                 </div>
 
+                -->
+
               </article>
+
             </div>
 
           </div>

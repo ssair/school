@@ -155,86 +155,50 @@ export default {
     return {
       director: [
         { userID: 'director',
-          user_last_name: 'Федорова',
-          user_first_name:'Лолита Анатольевна',
+          user_last_name: 'Иванова',
+          user_first_name:'Анна Евгеньевна',
           subject: 'директор',
-          photo: require("@/assets/images/lyceum/photo_teachers/Fedorova_LA_small.jpg")
+          photo: require("@/assets/images/lyceum/photo_teachers/girl-01.png")
         }
       ],
       items: [
-        { userID: 'korshunova',
-          user_last_name: 'Коршунова',
-          user_first_name:'Вера Викторовна',
+        { userID: 'petrova',
+          user_last_name: 'Петрова',
+          user_first_name:'Марина Александровна',
           subject: 'УВР (1-4 классы)',
-          photo: require("@/assets/images/lyceum/photo_teachers/Korshunova_small.jpg")
+          photo: require("@/assets/images/lyceum/photo_teachers/girl-02.png")
         },
-        { userID: 'kasatkina',
-          user_last_name: 'Касаткина',
-          user_first_name:'Наталья Сергеевна',
+        { userID: 'sidorova',
+          user_last_name: 'Сидорова',
+          user_first_name:'Нина Алексеевна',
           subject: 'УВР (5-7 классы)',
-          photo: require("@/assets/images/lyceum/photo_teachers/kasatkina_small.jpg")
+          photo: require("@/assets/images/lyceum/photo_teachers/girl-03.png")
         },
-        { userID: 'sycheva',
-          user_last_name: 'Сычева',
-          user_first_name:'Ирина Валерьевна',
+        { userID: 'kartoshkina',
+          user_last_name: 'Картошкина',
+          user_first_name:'Анна Петровна',
           subject: 'УВР (8-11 классы)',
-          photo: require("@/assets/images/lyceum/photo_teachers/sycheva_small.jpg")
-        },
-        { userID: 'yakovchenko',
-          user_last_name: 'Яковченко',
-          user_first_name:'Екатерина Николаевна',
-          subject: 'ВР',
-          photo: require("@/assets/images/lyceum/photo_teachers/yakovchenko_small.jpg")
-        },
-        { userID: 'vitse',
-          user_last_name: 'Вайц',
-          user_first_name:'Карина Сергеевна',
-          subject: 'инновационная работа',
-          photo: require("@/assets/images/lyceum/photo_teachers/vitse_small.jpg")
-        },
-        { userID: 'ivanova',
-          user_last_name: 'Иванова',
-          user_first_name:'Ирина Борисовна',
-          subject: 'ИКТ',
-          photo: require("@/assets/images/lyceum/photo_teachers/ivanova_small.jpg")
-        },
-        { userID: 'kolupaeva',
-          user_last_name: 'Колупаева',
-          user_first_name:'Анна Александровна',
-          subject: 'АХЧ',
-          photo: require("@/assets/images/lyceum/photo_teachers/kolupaeva_small.jpg")
-        },
-        { userID: 'petchenko',
-          user_last_name: 'Петченко',
-          user_first_name:'Ирина Евгеньевна',
-          subject: 'ОДОД ',
-          photo: require("@/assets/images/lyceum/photo_teachers/petchenko_small.jpg")
-        },
-        { userID: 'sobolev',
-          user_last_name: 'Соболев',
-          user_first_name:'Сергей Николаевич',
-          subject: 'информатизация',
-          photo: "https://drive.google.com/uc?export=view&id=10mku7qJ1UuS4_huQB9OoYnxGhEKMobwB"
+          photo: require("@/assets/images/lyceum/photo_teachers/girl-04.png")
         }
       ],
       staff: [
-        { userID: 'kapustyan',
-          user_last_name: 'Капустян',
-          user_first_name:'Светлана Викторовна',
+        { userID: 'petrova1',
+          user_last_name: 'Петрова',
+          user_first_name:'Марина Александровна',
           subject: 'секретарь',
-          photo: require("@/assets/images/lyceum/photo_teachers/kapustyan_small.jpg")
+          photo: require("@/assets/images/lyceum/photo_teachers/girl-02.png")
         },
-        { userID: 'shostka',
-          user_last_name: 'Шостка',
-          user_first_name:'Людмила Сергеевна',
+        { userID: 'sidorova1',
+          user_last_name: 'Сидорова',
+          user_first_name:'Нина Алексеевна',
           subject: 'специалист по кадрам',
-          photo: require("@/assets/images/lyceum/photo_teachers/shostka_small.jpg")
+          photo: require("@/assets/images/lyceum/photo_teachers/girl-03.png")
         },
-        { userID: 'tsvetkova',
-          user_last_name: 'Цветкова',
-          user_first_name:'Ксения Вячеславовна',
+        { userID: 'kartoshkina1',
+          user_last_name: 'Картошкина',
+          user_first_name:'Анна Петровна',
           subject: 'социальный педагог',
-          photo: require("@/assets/images/lyceum/photo_teachers/tsvetkova_small.jpg")
+          photo: require("@/assets/images/lyceum/photo_teachers/girl-04.png")
         }
       ]
     }
@@ -521,7 +485,7 @@ section.is-visible {
 .content {
   display:                grid;
   grid-template-columns:  300px;
-  grid-template-rows:     repeat(9, 450px);
+  grid-template-rows:     repeat(3, 450px);
   max-width:              100%;
   grid-column-gap:        30px;
   grid-row-gap:           60px;
@@ -569,14 +533,14 @@ section.is-visible {
 @media (min-width: 650px) {
   .content {
     grid-template-columns:  repeat(2, 300px);
-    grid-template-rows:     repeat(5, 450px);
+    grid-template-rows:     repeat(2, 450px);
   }
 }
 
 @media (min-width: 960px) {
   .content {
     grid-template-columns:  repeat(3, 300px);
-    grid-template-rows:     repeat(3, 450px);
+    grid-template-rows:     repeat(1, 450px);
     grid-column-gap:        20px;
   }
 }

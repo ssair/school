@@ -57,7 +57,7 @@
     </main>
 
     <footer id="page__footer">
-      Царскосельская гимназия - 2022
+      Царскосельская гимназия - Учебный проект
     </footer>
 
   </div>
@@ -140,7 +140,7 @@ html {
   top:                    0;
   place-content:          center;
   place-items:            center;
-  background-color:       rgba(254, 254, 254, .7);
+  background-color:       rgba(254, 254, 254, .2);
   backdrop-filter:        blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-bottom:          1px solid #d5dddf;

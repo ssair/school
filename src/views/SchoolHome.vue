@@ -180,7 +180,7 @@ export default {
       let position = elem.getBoundingClientRect();
       let y = position.top;
       if (y < 95){
-        elemHeader.style.backgroundColor = 'rgba(254, 254, 254, .7)';
+        elemHeader.style.backgroundColor = 'rgba(254, 254, 254, 0)';// Изменить на 0
         elemHeader.style.backdropFilter = "blur(20px)";
         elemHeader.style.webkitBackdropFilter = "blur(20px)";
         elemHeader.style.transition = ".5s"

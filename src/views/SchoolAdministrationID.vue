@@ -80,82 +80,46 @@ export default {
     return {
       items: [
         { userID: 'director',
-          user_last_name: 'Федорова',
-          user_first_name:'Лолита Анатольевна',
-          subject: 'директор',
-          photo: require("@/assets/images/lyceum/photo_teachers/fedorova_id2.jpg")
-        },
-        { userID: 'korshunova',
-          user_last_name: 'Коршунова',
-          user_first_name:'Вера Викторовна',
-          subject: 'заместитель директора по учебно-воспитательной работе (1-4 классы) ',
-          photo: require("@/assets/images/lyceum/photo_teachers/korshunova_id.jpg")
-        },
-        { userID: 'kasatkina',
-          user_last_name: 'Касаткина',
-          user_first_name:'Наталья Сергеевна',
-          subject: 'заместитель директора по учебно-воспитательной работе (5-7 классы)',
-          photo: require("@/assets/images/lyceum/photo_teachers/kasatkina_small.jpg")
-        },
-        { userID: 'sycheva',
-          user_last_name: 'Сычева',
-          user_first_name:'Ирина Валерьевна',
-          subject: 'заместитель директора по учебно-воспитательной работе (8-11 классы)',
-          photo: require("@/assets/images/lyceum/photo_teachers/sycheva_id.jpg")
-        },
-        { userID: 'yakovchenko',
-          user_last_name: 'Яковченко',
-          user_first_name:'Екатерина Николаевна',
-          subject: 'заместитель директора по воспитательной работе',
-          photo: require("@/assets/images/lyceum/photo_teachers/yakovchenko_id.jpg")
-        },
-        { userID: 'vitse',
-          user_last_name: 'Вайц',
-          user_first_name:'Карина Сергеевна',
-          subject: 'заместитель директора по научно-методической и инновационной работе',
-          photo: require("@/assets/images/lyceum/photo_teachers/vitse_id.jpg")
-        },
-        { userID: 'ivanova',
           user_last_name: 'Иванова',
-          user_first_name:'Ирина Борисовна',
-          subject: 'заместитель директора по ИКТ',
-          photo: require("@/assets/images/lyceum/photo_teachers/ivanova_id.jpg")
+          user_first_name:'Анна Евгеньевна',
+          subject: 'директор',
+          photo: require("@/assets/images/lyceum/photo_teachers/girl-01.png")
         },
-        { userID: 'kolupaeva',
-          user_last_name: 'Колупаева',
-          user_first_name:'Анна Александровна',
-          subject: 'заместитель директора по АХЧ',
-          photo: require("@/assets/images/lyceum/photo_teachers/kolupaeva_id.jpg")
+        { userID: 'petrova',
+          user_last_name: 'Петрова',
+          user_first_name:'Марина Александровна',
+          subject: 'УВР (1-4 классы)',
+          photo: require("@/assets/images/lyceum/photo_teachers/girl-02.png")
         },
-        { userID: 'petchenko',
-          user_last_name: 'Петченко',
-          user_first_name:'Ирина Евгеньевна',
-          subject: 'заведующий ОДОД ',
-          photo: require("@/assets/images/lyceum/photo_teachers/petchenko_id.jpg")
+        { userID: 'sidorova',
+          user_last_name: 'Сидорова',
+          user_first_name:'Нина Алексеевна',
+          subject: 'заместитель директора по учебно-воспитательной работе (5-7 классы)',
+          photo: require("@/assets/images/lyceum/photo_teachers/girl-03.png")
         },
-        { userID: 'sobolev',
-          user_last_name: 'Соболев',
-          user_first_name:'Сергей Николаевич',
-          subject: 'заместитель директора по информатизации',
-          photo: "https://drive.google.com/uc?export=view&id=10mku7qJ1UuS4_huQB9OoYnxGhEKMobwB"
+        { userID: 'kartoshkina',
+          user_last_name: 'Картошкина',
+          user_first_name:'Анна Петровна',
+          subject: 'заместитель директора по учебно-воспитательной работе (8-11 классы)',
+          photo: require("@/assets/images/lyceum/photo_teachers/girl-04.png")
         },
-        { userID: 'kapustyan',
-          user_last_name: 'Капустян',
-          user_first_name:'Светлана Викторовна',
+        { userID: 'petrova1',
+          user_last_name: 'Петрова',
+          user_first_name:'Марина Александровна',
           subject: 'секретарь',
-          photo: require("@/assets/images/lyceum/photo_teachers/kapustyan_id.jpg")
+          photo: require("@/assets/images/lyceum/photo_teachers/girl-02.png")
         },
-        { userID: 'shostka',
-          user_last_name: 'Шостка',
-          user_first_name:'Людмила Сергеевна',
+        { userID: 'sidorova1',
+          user_last_name: 'Сидорова',
+          user_first_name:'Нина Алексеевна',
           subject: 'специалист по кадрам',
-          photo: require("@/assets/images/lyceum/photo_teachers/shostka_id.jpg")
+          photo: require("@/assets/images/lyceum/photo_teachers/girl-03.png")
         },
-        { userID: 'tsvetkova',
-          user_last_name: 'Цветкова',
-          user_first_name:'Ксения Вячеславовна',
+        { userID: 'kartoshkina1',
+          user_last_name: 'Картошкина',
+          user_first_name:'Анна Петровна',
           subject: 'социальный педагог',
-          photo: require("@/assets/images/lyceum/photo_teachers/tsvetkova_small.jpg")
+          photo: require("@/assets/images/lyceum/photo_teachers/girl-04.png")
         }
       ]
     }

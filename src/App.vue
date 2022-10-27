@@ -12,7 +12,7 @@
           <div id="page__header__logo">
 
             <div></div>
-            <img src="./assets/images/tsgymnasium_logo.png" alt="Царскосельская гимназия">
+            <img src="./assets/images/tsgymnasium_logo.png" alt="царскосельская гимназия">
             <div></div>
 
           </div>

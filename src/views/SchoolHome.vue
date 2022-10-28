@@ -320,7 +320,7 @@ export default {
   width:                  1fr;
   max-width:              100%;
   min-height:             100vh;
-  background:             rgba(252, 252, 252, .75);
+  //background:             rgba(252, 252, 252, .75);
 }
 
 #section_2_wrapper {

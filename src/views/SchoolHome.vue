@@ -331,7 +331,7 @@ export default {
   padding-left:           .5rem;
   padding-right:          .5rem;
   max-width:              var(--width-wrapper-small);
-  grid-gap:               .5rem;
+  grid-gap:               1.5rem;
   margin:                 0 auto;
   /* Mobile */
   grid-template-areas:      'Item1'
@@ -393,7 +393,7 @@ export default {
   grid-template-rows:     100%;
   filter:                 grayscale(65%);
   background:             rgba(250, 250, 250, .0);
-  border-radius:          4px;
+  border-radius:          15px;
   cursor:                 pointer;
   opacity:                0;
   transition:             opacity 500ms;
@@ -413,7 +413,7 @@ export default {
   height:                 100%;
   object-fit:             cover;
   object-position:        center;
-  border-radius:          4px;
+  border-radius:          15px;
 }
 
 .is-visible {

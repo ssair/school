@@ -400,7 +400,7 @@ export default {
   grid-template-columns:  1fr;
   grid-template-rows:     400px 100px;
   cursor:                 pointer;
-  border-radius:          9px;
+  border-radius:          15px;
   overflow:               hidden;
 }
 
@@ -411,7 +411,7 @@ export default {
   background:             none;
   height:                 400px;
   overflow:               hidden;
-  border-radius:          9px;
+  border-radius:          15px;
 
 }
 
@@ -420,7 +420,7 @@ export default {
   width:                  100%;
   height:                 100%;
   object-fit:             cover;
-  border-radius:          9px;
+  border-radius:          15px;
 }
 
 #content_item_name_director {
@@ -454,7 +454,7 @@ export default {
   max-width:              var(--width-wrapper-small);
   margin:                 auto;
   height:                 auto;
-  border-radius:          6px;
+  border-radius:          15px;
   padding-left:           1rem;
   padding-right:          1rem;
 }
@@ -498,7 +498,7 @@ section.is-visible {
   grid-template-columns:  1fr;
   grid-template-rows:     360px 90px;
   cursor:                 pointer;
-  border-radius:          9px;
+  border-radius:          15px;
   overflow:               hidden;
 }
 
@@ -509,7 +509,7 @@ section.is-visible {
   background:             none;
   height:                 360px;
   overflow:               hidden;
-  border-radius:          9px;
+  border-radius:          15px;
 }
 
 .content_item_photo {
@@ -517,7 +517,7 @@ section.is-visible {
   width:                  100%;
   height:                 100%;
   object-fit:             cover;
-  border-radius:          9px;
+  border-radius:          15px;
 }
 
 .content_item_name {

@@ -420,7 +420,7 @@ export default {
   /*place-content:          center;*/
   place-items:            center;
   overflow:               hidden;
-  border-radius:          9px;
+  border-radius:          15px;
 }
 
 #content_photo > img {
@@ -429,7 +429,7 @@ export default {
   object-fit:             contain;
   /*background: #fff;*/
   overflow:               hidden;
-  border-radius:          9px;
+  border-radius:          15px;
 }
 
 #content_name {

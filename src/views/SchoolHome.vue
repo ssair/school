@@ -116,26 +116,30 @@
           <transition name="slide-fade-left">
             <div id="section_3_wrapper">
 
-              <div id="section_3_header">
-                Кружок по Frontend-разработке
+              <div id="section_3_header" style="color: #fff">
+                Учимся делать сайты
               </div>
               <div id="section_3_container">
                 <div id="section_3_content">
 
                   <div id="section_3_content_menu"></div>
                   <div id="section_3_content_item">
-                    <div id="section_3_content_item_left"></div>
+                    <div id="section_3_content_item_left">
+                      <p style="padding-left: 15px; padding-top: 15px">
+                        Привет, мир!
+                      </p>
+                    </div>
                     <div id="section_3_content_item_right"></div>
                   </div>
 
                 </div>
               </div>
               <div id="section_3_footer">
-                <div style="min-width: 100%; min-height: 100%; text-align: end">
+                <div style="min-width: 100%; min-height: 100%; text-align: end; color: #fff">
                   Когда начало?
                 </div>
-                <div style="min-width: 100%; min-height: 100%; text-align: start">
-                  Что такое Frontend?
+                <div style="min-width: 100%; min-height: 100%; text-align: start; color: #fff">
+                  Что такое сайт?
                 </div>
               </div>
 
@@ -565,7 +569,7 @@ export default {
   height:                 60vh;
   max-width:              100%;
   min-height:             60vh;
-  background:             rgba(255, 255, 255, 1);
+  background:             rgba(255, 255, 255, .1);
 }
 
 @media (min-width: 60rem) {
@@ -638,7 +642,7 @@ export default {
   background:             #999;
   min-width: 100%;
   min-height: 100%;
-  border-radius: 20px;
+  border-radius:          15px;
   padding: 50px;
 }
 
@@ -648,15 +652,15 @@ export default {
   grid-template-rows:     1fr 5fr;
   min-width: 100%;
   min-height: 100%;
-  border-radius: 20px;
-  grid-gap: 20px;
+  border-radius:          15px;
+  grid-gap: .5rem;
 }
 
 #section_3_content_menu {
   min-width: 100%;
   min-height: 100%;
   background:             #fff;
-  border-radius: 9px;
+  border-radius:          4px;
 }
 
 #section_3_content_item {
@@ -665,21 +669,21 @@ export default {
   grid-template-rows:     1fr;
   min-width: 100%;
   min-height: 100%;
-  grid-gap: 20px;
+  grid-gap: .5rem;
 }
 
 #section_3_content_item_left {
   min-width: 100%;
   min-height: 100%;
   background:             #fff;
-  border-radius: 9px;
+  border-radius:          4px;
 }
 
 #section_3_content_item_right {
   min-width: 100%;
   min-height: 100%;
   background:             #fff;
-  border-radius: 9px;
+  border-radius:          4px;
 }
 
 #section_3_footer {

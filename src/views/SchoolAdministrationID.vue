@@ -244,7 +244,7 @@ export default {
   max-width:              var(--width-wrapper-small);
   margin:                 auto;
   min-height:             100vh;
-  border-radius:          6px;
+  border-radius:          15px;
   padding-left: 1rem;
   padding-right: 1rem;
 }
@@ -299,7 +299,7 @@ export default {
   place-content:          center;
   place-items:            center;
   overflow:               hidden;
-  border-radius:          9px;
+  border-radius:          15px;
 }
 
 #content_photo > img {
@@ -308,7 +308,7 @@ export default {
   object-fit:             cover;
   /*background: #fff;*/
   overflow:               hidden;
-  border-radius:          9px;
+  border-radius:          15px;
 }
 
 #content_name {

@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import SchoolHome from '../views/SchoolHome.vue'
+//import SchoolHome from '../views/SchoolHome.vue'
 import SchoolMenu from '../views/SchoolMenu.vue'
 import SchoolAbout from '../views/SchoolAbout.vue'
 import SchoolAboutBasicData from '../views/SchoolAboutBasicData.vue'
@@ -20,6 +20,8 @@ import SchoolTeacherID from '../views/SchoolTeacherID.vue'
 import SchoolAdministration from '../views/SchoolAdministration.vue'
 import SchoolAdministrationID from '../views/SchoolAdministrationID.vue'
 
+import Home from '../views/Home.vue'
+
 
 import RipHome from '../views/RipHome.vue'
 /*import RipMenu from '../views/RipMenu.vue'*/
@@ -31,8 +33,8 @@ import RipDocuments from '../views/RipDocuments.vue'
 const routes = [
   {
     path: '/',
-    name: 'SchoolHome',
-    component: SchoolHome
+    name: 'Home',
+    component: Home
   },
   {
     path: '/menu',

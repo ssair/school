@@ -1,11 +1,11 @@
 <template>
 
-  <section id="section_5" class="section_5">
+  <section class="home_section_picture_move">
     <transition name="slide-fade">
-      <div id="section_5_wrapper" v-if="isVisible_5">
+      <div id="home_section_picture_move_wrapper" v-if="isVisible">
         <img src="../assets/images/mathematics-989121_1920.png" alt="pi">
-        <div id="section_5_wrapper_text">
-          <p class="section_5_wrapper_p">Инженерное направление</p>
+        <div id="home_section_picture_move_text">
+          <p id="home_section_picture_move_p">Инженерное направление</p>
         </div>
       </div>
     </transition>
@@ -18,27 +18,27 @@ export default {
   name: "homeSectionPictureMove",
   data() {
     return {
-      isVisible_5: false
+      isVisible: false
     }},
   mounted() {
 
-    const section_5 = document.querySelectorAll('.section_5');
+    const section = document.querySelectorAll('.home_section_picture_move');
 
-    let options_section_5 = {
+    let sections = {
       rootMargin: "0px",
       threshold: 0.3
     }
 
-    let observer_section_5 = new IntersectionObserver(entries => {
+    let observer_section = new IntersectionObserver(entries => {
       entries.forEach((entry) => {
         if (entry.intersectionRatio >= 0.3) {
-          this.isVisible_5 = true
+          this.isVisible = true
         }
       })
-    }, options_section_5);
+    }, sections);
 
-    section_5.forEach((section) => {
-      observer_section_5.observe(section);
+    section.forEach((section) => {
+      observer_section.observe(section);
     })
 
   }
@@ -47,7 +47,7 @@ export default {
 
 <style scoped>
 
-#section_5 {
+.home_section_picture_move {
   width:                  1fr;
   max-width:              100vw;
   height:                 100vh;
@@ -62,7 +62,7 @@ export default {
   background-color:       rgba(200, 200, 200, .5);
 }
 
-#section_5_wrapper {
+#home_section_picture_move_wrapper {
   display:                grid;
   grid-template-columns:  1fr;
   grid-template-rows:     80% 1fr;
@@ -76,24 +76,24 @@ export default {
 }
 
 @media (min-width: 960px) {
-  #section_5_wrapper {
+  #home_section_picture_move_wrapper {
     max-width: var(--width-wrapper-middle);
   }
 }
 @media (min-width: 1200px) {
-  #section_5_wrapper {
+  #home_section_picture_move_wrapper {
     max-width: var(--width-wrapper-large);
   }
 }
 
-#section_5_wrapper > img {
+#home_section_picture_move_wrapper > img {
   width:                  100%;
   height:                 100%;
   object-fit:             cover;
   padding:                .3rem;
 }
 
-#section_5_wrapper_text {
+#home_section_picture_move_text {
   display:                grid;
   grid-template-columns:  1fr;
   grid-template-rows:     1fr;
@@ -103,7 +103,7 @@ export default {
   color:                  #333;
 }
 
-.section_5_wrapper_text_p {
+#home_section_picture_move_text_p {
   display:                grid;
   grid-template-columns:  1fr;
   /*align-content:          center;*/

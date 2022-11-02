@@ -44,7 +44,7 @@
         <router-link tag="article" to="/"
                      class="home_section_grid_first_article is-visible"
                      id="item_3" aria-label="foto"
-                     v-if="isVisible >= 3">
+                     v-if="isVisible >= 2">
           <picture class="home_section_grid_first_picture" id="item_3_img">
             <img src="../assets/images/engineer-lyceum.jpg" alt="foto">
           </picture>
@@ -62,21 +62,28 @@
         </picture>
       </router-link>
 
+      <transition name="r_l_move">
       <router-link tag="article" to="/"
                    class="home_section_grid_first_article"
-                   id="item_5" aria-label="foto">
+                   id="item_5" aria-label="foto"
+                   v-if="isVisible >= 2">
         <picture class="home_section_grid_first_picture" id="item_5_img">
           <img src="../assets/images/history-2.jpg" alt="foto">
         </picture>
       </router-link>
+      </transition>
 
+      <transition name="l_r_move">
       <router-link tag="article" to="/"
                    class="home_section_grid_first_article"
-                   id="item_6" aria-label="foto">
+                   id="item_6" aria-label="foto"
+                   v-if="isVisible >= 3">
         <picture class="home_section_grid_first_picture" id="item_6_img">
           <img src="../assets/images/stikhi-2.jpg" alt="foto">
         </picture>
       </router-link>
+      </transition>
+
 
       <router-link tag="article" to="/"
                    class="home_section_grid_first_article"
@@ -90,7 +97,7 @@
         <router-link tag="article" to="/"
                      class="home_section_grid_first_article is-visible"
                      id="item_8" aria-label="foto"
-                     v-if="isVisible >= 5">
+                     v-if="isVisible >= 3">
           <picture class="home_section_grid_first_picture" id="item_8_img">
             <img src="../assets/images/venice.jpg" alt="foto">
           </picture>
@@ -157,7 +164,6 @@ export default {
         if (entry.intersectionRatio >= 0.5) {
           target.classList.add("is-visible");
           this.isVisible = this.isVisible + 1
-          target.classList.add("is-visible-1");
         } else {
           //target.classList.remove("is-visible");
         }
@@ -265,8 +271,8 @@ export default {
   background:             rgba(250, 250, 250, .0);
   border-radius:          15px;
   cursor:                 pointer;
-  opacity:                0;
-  transition:             opacity 500ms;
+  opacity:                1;
+  transition:             opacity 50ms;
 }
 .home_section_grid_first_article:hover {
   filter:                 grayscale(0);

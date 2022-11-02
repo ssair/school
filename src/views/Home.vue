@@ -147,39 +147,7 @@
           </transition>
         </section>
 
-        <section id="section_project_activities">
-
-            <div id="section_project_activities_wrapper">
-
-                <router-link tag="article" to="/school-teachers"
-                             class="section_project_activities"
-                             id="section_project_activities_header" style="color: #000"
-                             >
-                  <transition name="l_r_move">
-
-                  <p v-if="isVisible1">
-                    Учимся делать сайты
-                  </p>
-                  </transition>
-
-                </router-link>
-
-              <div id="section_project_activities_center">
-
-              </div>
-              <div id="section_project_activities_footer">
-                <div style="min-width: 100%; min-height: 100%; text-align: end; color: #000">
-                  Когда начало?
-                </div>
-                <div style="min-width: 100%; min-height: 100%; text-align: start; color: #000">
-                  Что такое сайт?
-                </div>
-              </div>
-
-            </div>
-        </section>
-
-        <home-section></home-section>
+        <home-section-projects></home-section-projects>
 
         <section id="section_4"></section>
 
@@ -203,12 +171,12 @@
 
 <script>
 
-import homeSection from '../components/homeSection.vue'
+import homeSectionProjects from '../components/homeSectionProjects.vue'
 
 export default {
   name: 'Home',
 
-  components: { homeSection  },
+  components: { homeSectionProjects  },
 
   data() {
     return {
@@ -269,29 +237,6 @@ export default {
 
     sections.forEach((section) => {
       observer.observe(section);
-    })
-
-    // Для section_1
-
-    const sections_1 = document.querySelectorAll('.section_project_activities');
-
-    let options_section_1 = {
-      rootMargin: "0px",
-      threshold: 0.5
-    }
-
-    let observer_section_1 = new IntersectionObserver(entries => {
-      entries.forEach((entry) => {
-        if (entry.intersectionRatio >= 0.5) {
-          this.isVisible1 = true
-        } else {
-          this.isVisible1 = false
-        }
-      })
-    }, options_section_1);
-
-    sections_1.forEach((section) => {
-      observer_section_1.observe(section);
     })
 
     // Для section_5

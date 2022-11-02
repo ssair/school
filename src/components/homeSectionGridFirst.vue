@@ -1,40 +1,40 @@
 <template>
 
-  <section id="section_2" v-on:scroll.passive="showHeader">
+  <div id="home_section_grid_first" v-on:scroll.passive="showHeader">
 
-    <div id="section_2_wrapper">
+    <div id="home_section_grid_first_wrapper">
 
       <transition name="l_r_move">
         <router-link tag="article" to="/school-teachers"
-                     class="section_2_article is-visible"
+                     class="home_section_grid_first_article is-visible"
                      id="item_0" aria-label="foto"
                      v-if="isVisible >= 1">
-          <picture class="section_2_picture" id="item_0_img">
+          <picture class="home_section_grid_first_picture" id="item_0_img">
             <img src="../assets/images/our-teachers.jpg" alt="foto">
           </picture>
-          <div class="section_2_content" id="item_0_content">
+          <div class="home_section_grid_first_content" id="item_0_content">
             <h2>Наши учителя</h2>
           </div>
         </router-link>
       </transition>
 
       <router-link tag="article" to="/"
-                   class="section_2_article"
+                   class="home_section_grid_first_article"
                    id="item_1" aria-label="foto">
-        <picture class="section_2_picture" id="item_1_img">
+        <picture class="home_section_grid_first_picture" id="item_1_img">
           <img src="../assets/images/mathematics-989121_1920.png" alt="foto">
         </picture>
-        <div class="section_2_content" id="item_1_content">
+        <div class="home_section_grid_first_content" id="item_1_content">
           <h2>Физико-математическое направление</h2>
         </div>
       </router-link>
 
       <transition name="r_l_move">
         <router-link tag="article" to="/"
-                     class="section_2_article is-visible"
+                     class="home_section_grid_first_article is-visible"
                      id="item_2" aria-label="foto"
                      v-if="isVisible >= 1">
-          <picture class="section_2_picture" id="item_2_img">
+          <picture class="home_section_grid_first_picture" id="item_2_img">
             <img src="../assets/images/bird-2.jpg" alt="foto">
           </picture>
         </router-link>
@@ -42,59 +42,59 @@
 
       <transition name="l_r_move">
         <router-link tag="article" to="/"
-                     class="section_2_article is-visible"
+                     class="home_section_grid_first_article is-visible"
                      id="item_3" aria-label="foto"
                      v-if="isVisible >= 3">
-          <picture class="section_2_picture" id="item_3_img">
+          <picture class="home_section_grid_first_picture" id="item_3_img">
             <img src="../assets/images/engineer-lyceum.jpg" alt="foto">
           </picture>
-          <div class="section_2_content" id="item_3_content">
+          <div class="home_section_grid_first_content" id="item_3_content">
             <h2>Проекты</h2>
           </div>
         </router-link>
       </transition>
 
       <router-link tag="article" to="/"
-                   class="section_2_article"
+                   class="home_section_grid_first_article"
                    id="item_4" aria-label="foto">
-        <picture class="section_2_picture" id="item_4_img">
+        <picture class="home_section_grid_first_picture" id="item_4_img">
           <img src="../assets/images/friends.jpg" alt="foto">
         </picture>
       </router-link>
 
       <router-link tag="article" to="/"
-                   class="section_2_article"
+                   class="home_section_grid_first_article"
                    id="item_5" aria-label="foto">
-        <picture class="section_2_picture" id="item_5_img">
+        <picture class="home_section_grid_first_picture" id="item_5_img">
           <img src="../assets/images/history-2.jpg" alt="foto">
         </picture>
       </router-link>
 
       <router-link tag="article" to="/"
-                   class="section_2_article"
+                   class="home_section_grid_first_article"
                    id="item_6" aria-label="foto">
-        <picture class="section_2_picture" id="item_6_img">
+        <picture class="home_section_grid_first_picture" id="item_6_img">
           <img src="../assets/images/stikhi-2.jpg" alt="foto">
         </picture>
       </router-link>
 
       <router-link tag="article" to="/"
-                   class="section_2_article"
+                   class="home_section_grid_first_article"
                    id="item_7" aria-label="foto">
-        <picture class="section_2_picture" id="item_7_img">
+        <picture class="home_section_grid_first_picture" id="item_7_img">
           <img src="../assets/images/vpole-2.jpg" alt="foto">
         </picture>
       </router-link>
 
       <transition name="r_l_move">
         <router-link tag="article" to="/"
-                     class="section_2_article is-visible"
+                     class="home_section_grid_first_article is-visible"
                      id="item_8" aria-label="foto"
                      v-if="isVisible >= 5">
-          <picture class="section_2_picture" id="item_8_img">
+          <picture class="home_section_grid_first_picture" id="item_8_img">
             <img src="../assets/images/venice.jpg" alt="foto">
           </picture>
-          <div class="section_2_content" id="item_8_content">
+          <div class="home_section_grid_first_content" id="item_8_content">
             <h2>Путешествия</h2>
           </div>
         </router-link>
@@ -102,13 +102,13 @@
 
     </div>
 
-  </section>
+  </div>
 
 </template>
 
 <script>
 export default {
-  name: "homeSectionGrid",
+  name: "homeSectionGridFirst",
   data() {
     return {
       isVisible: 0
@@ -117,7 +117,7 @@ export default {
   methods: {
 
     showHeader: function () {
-      let elem = document.getElementById('section_2');
+      let elem = document.getElementById('home_section_grid_first');
       let elemHeader = document.getElementById('page__header');
       let position = elem.getBoundingClientRect();
       let y = position.top;
@@ -144,7 +144,7 @@ export default {
 
     // Для section_2
 
-    const sections = document.querySelectorAll('.section_2_article');
+    const sections = document.querySelectorAll('.home_section_grid_first_article');
 
     let options = {
       rootMargin: "0px",
@@ -186,14 +186,14 @@ export default {
 
 <style scoped>
 
-#section_2 {
+#home_section_grid_first {
   width:                  1fr;
   max-width:              100%;
   min-height:             100vh;
 //background:             rgba(252, 252, 252, .75);
 }
 
-#section_2_wrapper {
+#home_section_grid_first_wrapper {
   display:                grid;
   grid-template-columns:  1fr;
   padding-top:            2rem;
@@ -217,7 +217,7 @@ export default {
 
 /* Tablet */
 @media (min-width: 37.5rem) {
-  #section_2_wrapper {
+  #home_section_grid_first_wrapper {
 
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas:        'Item1 Item1 Item1 Item1'
@@ -237,7 +237,7 @@ export default {
 
 /* Desktop */
 @media (min-width: 60rem) {
-  #section_2_wrapper {
+  #home_section_grid_first_wrapper {
     grid-template-columns: repeat(8, 1fr);
     grid-template-areas:  'Item0 Item0 Item1 Item1 Item1 Item1 Item2 Item2'
                           'Item0 Item0 Item1 Item1 Item1 Item1 Item2 Item2'
@@ -252,12 +252,12 @@ export default {
 }
 
 @media (min-width: 75rem) {
-  #section_2_wrapper {
+  #home_section_grid_first_wrapper {
     max-width:              var(--width-wrapper-large);
   }
 }
 
-.section_2_article {
+.home_section_grid_first_article {
   display:                grid;
   grid-template-columns:  1fr;
   grid-template-rows:     100%;
@@ -268,17 +268,17 @@ export default {
   opacity:                0;
   transition:             opacity 500ms;
 }
-.section_2_article:hover {
+.home_section_grid_first_article:hover {
   filter:                 grayscale(0);
 }
 
 @media (hover: none) {
-  .section_2_article {
+  .home_section_grid_first_article {
     filter:               grayscale(0);
   }
 }
 
-.section_2_picture > img{
+.home_section_grid_first_picture > img{
   width:                  100%;
   height:                 100%;
   object-fit:             cover;

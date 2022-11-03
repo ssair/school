@@ -4,13 +4,13 @@ import { createRouter, createWebHistory } from 'vue-router'
 //import SchoolMenu from '../views/SchoolMenu.vue'
 //import SchoolAbout from '../views/SchoolAbout.vue'
 //import SchoolAboutBasicData from '../views/SchoolAboutBasicData.vue'
-import SchoolAboutStructure from '../views/SchoolAboutStructure.vue'
-import SchoolAboutDocuments from '../views/SchoolAboutDocuments.vue'
-import SchoolAboutEducation from '../views/SchoolAboutEducation.vue'
-import SchoolAboutEducationProgramPrimary from '../views/SchoolAboutEducationProgramPrimary.vue'
-import SchoolAboutEducationProgramSecondary from '../views/SchoolAboutEducationProgramSecondary.vue'
-import SchoolAboutEducationWorkProgramPrimary from '../views/SchoolAboutEducationWorkProgramPrimary.vue'
-import SchoolAboutEducationWorkProgramSecondary from '../views/SchoolAboutEducationWorkProgramSecondary.vue'
+//import SchoolAboutStructure from '../views/SchoolAboutStructure.vue'
+//import SchoolAboutDocuments from '../views/SchoolAboutDocuments.vue'
+//import SchoolAboutEducation from '../views/SchoolAboutEducation.vue'
+//import SchoolAboutEducationProgramPrimary from '../views/SchoolAboutEducationProgramPrimary.vue'
+//import SchoolAboutEducationProgramSecondary from '../views/SchoolAboutEducationProgramSecondary.vue'
+//import SchoolAboutEducationWorkProgramPrimary from '../views/SchoolAboutEducationWorkProgramPrimary.vue'
+//import SchoolAboutEducationWorkProgramSecondary from '../views/SchoolAboutEducationWorkProgramSecondary.vue'
 //import SchoolODOD from '../views/SchoolODOD.vue'
 import SchoolPaidEducationalServices from '../views/SchoolPaidEducationalServices.vue'
 //import SchoolScheduleHigh from '../views/old/SchoolScheduleHigh.vue'
@@ -29,6 +29,13 @@ import Teachers from '../views/Teachers.vue'
 import TeacherID from '../views/TeacherID.vue'
 import ODOD from '../views/ODOD.vue'
 import AboutBasicData from '../views/AboutBasicData.vue'
+import AboutStructure from '../views/AboutStructure.vue'
+import AboutDocuments from '../views/AboutDocuments.vue'
+import AboutEducation from '../views/AboutEducation.vue'
+import AboutEducationProgramPrimary from '../views/AboutEducationProgramPrimary.vue'
+import AboutEducationProgramSecondary from '../views/AboutEducationProgramSecondary.vue'
+import AboutEducationWorkProgramPrimary from '../views/AboutEducationWorkProgramPrimary.vue'
+import AboutEducationWorkProgramSecondary from '../views/AboutEducationWorkProgramSecondary.vue'
 
 
 
@@ -90,38 +97,38 @@ const routes = [
   },
   {
     path: '/about/structure',
-    name: 'SchoolAboutStructure',
-    component: SchoolAboutStructure
+    name: 'AboutStructure',
+    component: AboutStructure
   },
   {
     path: '/about/documents',
-    name: 'SchoolAboutDocuments',
-    component: SchoolAboutDocuments
+    name: 'AboutDocuments',
+    component: AboutDocuments
   },
   {
     path: '/about/education',
-    name: 'SchoolAboutEducation',
-    component: SchoolAboutEducation
+    name: 'AboutEducation',
+    component: AboutEducation
   },
   {
     path: '/about/education/education-program-primary',
-    name: 'SchoolAboutEducationPrimary',
-    component: SchoolAboutEducationProgramPrimary
+    name: 'AboutEducationProgramPrimary',
+    component: AboutEducationProgramPrimary
   },
   {
     path: '/about/education/education-program-secondary',
-    name: 'SchoolAboutEducationSecondary',
-    component: SchoolAboutEducationProgramSecondary
+    name: 'AboutEducationProgramSecondary',
+    component: AboutEducationProgramSecondary
   },
   {
     path: '/about/education/work-program-primary',
-    name: 'SchoolAboutEducationWorkProgramPrimary',
-    component: SchoolAboutEducationWorkProgramPrimary
+    name: 'AboutEducationWorkProgramPrimary',
+    component: AboutEducationWorkProgramPrimary
   },
   {
     path: '/about/education/work-program-secondary',
-    name: 'SchoolAboutEducationWorkProgramSecondary',
-    component: SchoolAboutEducationWorkProgramSecondary
+    name: 'AboutEducationWorkProgramSecondary',
+    component: AboutEducationWorkProgramSecondary
   },
   {
     path: '/paid-educational-services',

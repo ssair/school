@@ -216,7 +216,7 @@ export default {
     let observer = new IntersectionObserver(entries => {
       entries.forEach((entry) => {
         const { target } = entry;
-        if (entry.intersectionRatio >= 0.5) {
+        if (entry.intersectionRatio >= 0.4) {
           target.classList.add("is-visible");
         } else {
           target.classList.remove("is-visible");

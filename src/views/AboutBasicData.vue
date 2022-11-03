@@ -144,7 +144,7 @@ import headerContainer from '../components/headerContainer.vue'
 
 export default {
 
-  name: "SchoolAboutBasicData",
+  name: "AboutBasicData",
 
   components: { headerContainer  },
 

@@ -29,7 +29,7 @@
         </div>
       </router-link>
 
-      <transition name="r_l_move">
+      <transition name="d_u_move">
         <router-link tag="article" to="/"
                      class="home_section_grid_first_article is-visible"
                      id="item_2" aria-label="foto"
@@ -40,7 +40,7 @@
         </router-link>
       </transition>
 
-      <transition name="l_r_move">
+      <transition name="d_u_move">
         <router-link tag="article" to="/"
                      class="home_section_grid_first_article is-visible"
                      id="item_3" aria-label="foto"
@@ -93,7 +93,7 @@
         </picture>
       </router-link>
 
-      <transition name="r_l_move">
+      <transition name="d_u_move">
         <router-link tag="article" to="/"
                      class="home_section_grid_first_article is-visible"
                      id="item_8" aria-label="foto"
@@ -179,6 +179,7 @@ export default {
   beforeRouteLeave: function(){
 
     window.removeEventListener("scroll", this.showHeader);
+    alert('cjgclv,')
 
   },
 
@@ -460,6 +461,20 @@ export default {
 .r_l_move-enter-from,
 .r_l_move-leave-to {
   transform: translateX(200px);
+  opacity: 0;
+}
+
+.d_u_move-enter-active {
+  transition: all 1s ease-out;
+}
+
+.d_u_move-leave-active {
+  transition: all 1s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+
+.d_u_move-enter-from,
+.d_u_move-leave-to {
+  transform: translateY(200px);
   opacity: 0;
 }
 

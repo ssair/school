@@ -10,6 +10,8 @@
 
         <header-container-sub name="Для родителей"></header-container-sub>
 
+        <!--
+
         <div class="content_container">
 
           <div class="content_wrapper">
@@ -354,43 +356,6 @@
                 </div>
                 <div class="item_inner">
 
-                  <!--
-
-                  <a class="content_item_link"
-                     :href="`${publicPath}pdf/documents/paid-educational-services/Отчеты о расходовании средств 2020.doc`"
-                     download="Отчет о расходовании средств 2020.doc">
-                    <div class="content_item_img_link">
-                      <img src="../assets/images/download.png" alt="Скачать">
-                    </div>
-                    <div class="content_item_name_link">
-                      2020
-                    </div>
-                  </a>
-
-                  <a class="content_item_link"
-                     :href="`${publicPath}pdf/documents/paid-educational-services/Отчеты о расходовании средств 2019.doc`"
-                     download="Отчет о расходовании средств 2019.doc">
-                    <div class="content_item_img_link">
-                      <img src="../assets/images/download.png" alt="Скачать">
-                    </div>
-                    <div class="content_item_name_link">
-                      2019
-                    </div>
-                  </a>
-
-                  <a class="content_item_link"
-                     :href="`${publicPath}pdf/documents/paid-educational-services/Отчеты о расходовании средств 2018.doc`"
-                     download="Отчет о расходовании средств 2018.doc">
-                    <div class="content_item_img_link">
-                      <img src="../assets/images/download.png" alt="Скачать">
-                    </div>
-                    <div class="content_item_name_link">
-                      2018
-                    </div>
-                  </a>
-
-                  -->
-
                 </div>
 
               </article>
@@ -400,6 +365,8 @@
           </div>
 
         </div>
+
+      -->
 
       </div>
 

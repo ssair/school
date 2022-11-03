@@ -35,6 +35,15 @@
 
               <article class="content_item">
                 <div class="item">
+                  <p class="content_item_name">Плата за обучения</p>
+                </div>
+                <div class="item_inner">
+                  <p class="content_item_subname" style="padding-bottom: 9px">Обучение платное</p>
+                </div>
+              </article>
+
+              <article class="content_item">
+                <div class="item">
                   <p class="content_item_name">Нормативный срок обучения</p>
                 </div>
                 <div class="item_inner">
@@ -53,7 +62,7 @@
                   <p class="content_item_name">Срок действия аккредитации</p>
                 </div>
                 <div class="item_inner">
-                  <p class="content_item_subname">До 17 февраля 2026 года</p>
+                  <p class="content_item_subname">До 11 июня 2033 года</p>
                 </div>
               </article>
 
@@ -105,43 +114,43 @@
                   <p class="content_item_name">Учебные планы с аннотацией</p>
                 </div>
                 <div class="item_inner">
-                  <a class="content_item_doc" :href="`${publicPath}pdf/documents/academic-plan/Учебный план начального общего образования.pdf`"
+                  <a class="content_item_doc" :href="`${publicPath}pdf/documents/academic-plan/Пустой.pdf`"
                      download="Учебный план начального общего образования.pdf">
                     <div class="content_item_doc_img">
                       <img src="../assets/images/download.png" alt="Скачать">
                     </div>
                     <div class="content_item_doc_name is_hover">
-                      Учебный план начального общего образования
+                      Учебный план начального общего образования - нет
                     </div>
                   </a>
 
-                  <a class="content_item_doc" :href="`${publicPath}pdf/documents/academic-plan/Учебный план основного общего образования.pdf`"
+                  <a class="content_item_doc" :href="`${publicPath}pdf/documents/academic-plan/Пустой.pdf`"
                      download="Учебный план основного общего образования.pdf">
                     <div class="content_item_doc_img">
                       <img src="../assets/images/download.png" alt="Скачать">
                     </div>
                     <div class="content_item_doc_name is_hover">
-                      Учебный план основного общего образования
+                      Учебный план основного общего образования - нет
                     </div>
                   </a>
 
-                  <a class="content_item_doc" :href="`${publicPath}pdf/documents/academic-plan/Учебный план среднего общего образования.pdf`"
+                  <a class="content_item_doc" :href="`${publicPath}pdf/documents/academic-plan/Пустой.pdf`"
                      download="Учебный план среднего общего образования.pdf">
                     <div class="content_item_doc_img">
                       <img src="../assets/images/download.png" alt="Скачать">
                     </div>
                     <div class="content_item_doc_name is_hover">
-                      Учебный план среднего общего образования
+                      Учебный план среднего общего образования - нет
                     </div>
                   </a>
 
-                  <a class="content_item_doc" :href="`${publicPath}pdf/documents/academic-plan/Аннотация к учебному плану.pdf`"
+                  <a class="content_item_doc" :href="`${publicPath}pdf/documents/academic-plan/Пустой.pdf`"
                      download="Аннотация к учебному плану.pdf">
                     <div class="content_item_doc_img">
                       <img src="../assets/images/download.png" alt="Скачать">
                     </div>
                     <div class="content_item_doc_name is_hover">
-                      Аннотация к учебному плану
+                      Аннотация к учебному плану - нет
                     </div>
                   </a>
 
@@ -155,33 +164,33 @@
                   <p class="content_item_name">Календарный учебный график</p>
                 </div>
                 <div class="item_inner">
-                  <a class="content_item_doc" :href="`${publicPath}pdf/documents/training-calendar/Календарный учебный график начального общего образования.pdf`"
+                  <a class="content_item_doc" :href="`${publicPath}pdf/documents/training-calendar/Пустой.pdf`"
                      download="Календарный учебный график начального общего образования.pdf">
                     <div class="content_item_doc_img">
                       <img src="../assets/images/download.png" alt="Скачать">
                     </div>
                     <div class="content_item_doc_name is_hover">
-                      Календарный учебный график начального общего образования
+                      Календарный учебный график начального общего образования - нет
                     </div>
                   </a>
 
-                  <a class="content_item_doc" :href="`${publicPath}pdf/documents/training-calendar/Календарный учебный график основного общего образования.pdf`"
+                  <a class="content_item_doc" :href="`${publicPath}pdf/documents/training-calendar/Пустой.pdf`"
                      download="Календарный учебный график основного общего образования.pdf">
                     <div class="content_item_doc_img">
                       <img src="../assets/images/download.png" alt="Скачать">
                     </div>
                     <div class="content_item_doc_name is_hover">
-                      Календарный учебный график основного общего образования
+                      Календарный учебный график основного общего образования - нет
                     </div>
                   </a>
 
-                  <a class="content_item_doc" :href="`${publicPath}pdf/documents/training-calendar/Календарный учебный график среднего общего образования.pdf`"
+                  <a class="content_item_doc" :href="`${publicPath}pdf/documents/training-calendar/Пустой.pdf`"
                      download="Календарный учебный график среднего общего образования.pdf">
                     <div class="content_item_doc_img">
                       <img src="../assets/images/download.png" alt="Скачать">
                     </div>
                     <div class="content_item_doc_name is_hover">
-                      Календарный учебный график среднего общего образования
+                      Календарный учебный график среднего общего образования - нет
                     </div>
                   </a>
 
@@ -196,11 +205,11 @@
                 </div>
                 <div class="item_inner">
                   <p class="content_item_subname" style="color: #666">1-4 класс:</p>
-                  <p class="content_item_subname" style="padding-bottom: 9px">487 обучающихся в 16 классах</p>
+                  <p class="content_item_subname" style="padding-bottom: 9px">50 обучающихся в 4 классах</p>
                   <p class="content_item_subname" style="color: #666">5-9 класс:</p>
-                  <p class="content_item_subname" style="padding-bottom: 9px">450 обучающихся в 16 классах</p>
+                  <p class="content_item_subname" style="padding-bottom: 9px">90 обучающихся в 7 классах</p>
                   <p class="content_item_subname" style="color: #666">10-11 класс:</p>
-                  <p class="content_item_subname" style="padding-bottom: 9px">116 обучающихся в 4 классах</p>
+                  <p class="content_item_subname" style="padding-bottom: 9px">17 обучающихся в 2 классах</p>
                 </div>
 
               </article>
@@ -212,11 +221,11 @@
                 </div>
                 <div class="item_inner">
                   <p class="content_item_subname" style="color: #666">1-4 класс:</p>
-                  <p class="content_item_subname" style="padding-bottom: 9px">487 обучающихся</p>
+                  <p class="content_item_subname" style="padding-bottom: 9px">0 обучающихся</p>
                   <p class="content_item_subname" style="color: #666">5-9 класс:</p>
-                  <p class="content_item_subname" style="padding-bottom: 9px">450 обучающихся</p>
+                  <p class="content_item_subname" style="padding-bottom: 9px">0 обучающихся</p>
                   <p class="content_item_subname" style="color: #666">10-11 класс:</p>
-                  <p class="content_item_subname" style="padding-bottom: 9px">116 обучающихся</p>
+                  <p class="content_item_subname" style="padding-bottom: 9px">0 обучающихся</p>
                 </div>
 
               </article>

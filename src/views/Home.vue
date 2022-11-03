@@ -8,6 +8,8 @@
 
         <section id="section_1"></section>
 
+        <div id="header_show" v-on:scroll.passive="showHeader"></div>
+
         <home-section-grid-first></home-section-grid-first>
 
         <home-section-projects></home-section-projects>
@@ -40,12 +42,41 @@ export default {
   data() {
     return {
     }},
-  methods: {
 
+  methods: {
+    showHeader: function () {
+      let elem = document.getElementById('header_show');
+      let elemHeader = document.getElementById('page__header');
+      let position = elem.getBoundingClientRect();
+      let y = position.top;
+      if (y < 95){
+        elemHeader.style.backgroundColor = 'rgba(254, 254, 254, .5)';// Изменить на 0
+        elemHeader.style.backdropFilter = "blur(20px)";
+        elemHeader.style.webkitBackdropFilter = "blur(20px)";
+        elemHeader.style.transition = ".5s"
+        elemHeader.style.borderBottom = "none"
+      }
+      if ( y >= 95) {
+        elemHeader.style.backgroundColor = 'rgba(254, 254, 254, .9)';
+        elemHeader.style.backdropFilter = "blur(0px)";
+        elemHeader.style.webkitBackdropFilter = "blur(0px)";
+        elemHeader.style.borderBottom = "none"
+      }
+    },
   },
 
   mounted() {
+    window.addEventListener("scroll", this.showHeader);
+    this.showHeader()
+  },
 
+  beforeRouteLeave: function() {
+    window.removeEventListener("scroll", this.showHeader);
+  },
+
+  routeEnter:  function() {
+    let elemHeader = document.getElementById('page__header');
+    elemHeader.style.backgroundColor = 'rgba(104, 254, 254, .6)';
   }
 
 }

@@ -1,6 +1,6 @@
 <template>
 
-  <div id="home_section_grid_first" v-on:scroll.passive="showHeader">
+  <div id="home_section_grid_first">
 
     <div id="home_section_grid_first_wrapper">
 
@@ -121,35 +121,7 @@ export default {
       isVisible: 0
     }
   },
-  methods: {
-
-    showHeader: function () {
-      let elem = document.getElementById('home_section_grid_first');
-      let elemHeader = document.getElementById('page__header');
-      let position = elem.getBoundingClientRect();
-      let y = position.top;
-      if (y < 95){
-        elemHeader.style.backgroundColor = 'rgba(254, 254, 254, 0)';// Изменить на 0
-        elemHeader.style.backdropFilter = "blur(20px)";
-        elemHeader.style.webkitBackdropFilter = "blur(20px)";
-        elemHeader.style.transition = ".5s"
-        elemHeader.style.borderBottom = "none"
-      }
-      if ( y >= 95) {
-        elemHeader.style.backgroundColor = 'rgba(254, 254, 254, .9)';
-        elemHeader.style.backdropFilter = "blur(0px)";
-        elemHeader.style.webkitBackdropFilter = "blur(0px)";
-        elemHeader.style.borderBottom = "none"
-      }
-    },
-
-  },
   mounted() {
-
-    window.addEventListener("scroll", this.showHeader);
-    this.showHeader()
-
-    // Для section_2
 
     const sections = document.querySelectorAll('.home_section_grid_first_article');
 
@@ -174,18 +146,6 @@ export default {
       observer.observe(section);
     })
 
-  },
-
-  beforeRouteLeave: function(){
-
-    window.removeEventListener("scroll", this.showHeader);
-    alert('cjgclv,')
-
-  },
-
-  routeEnter:  function(){
-    let elemHeader = document.getElementById('page__header');
-    elemHeader.style.backgroundColor = 'rgba(104, 254, 254, .7)';
   }
 
 }

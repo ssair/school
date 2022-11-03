@@ -58,7 +58,7 @@
 
 <script>
 
-import headerContainer from "../components/headerContainer";
+import headerContainer from "../../components/headerContainer";
 
 export default {
 

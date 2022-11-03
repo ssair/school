@@ -46,11 +46,11 @@
                     <p class="content_item_artical_name">Распоряжение Комитета по образованию</p>
                   </div>
                   <div class="forImg" v-if="isVisible1">
-                    <img src="../assets/images/rip/Распоряжение_Комитета_1.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Распоряжение_Комитета_2.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Распоряжение_Комитета_3.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Распоряжение_Комитета_4.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Распоряжение_Комитета_5.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Распоряжение_Комитета_1.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Распоряжение_Комитета_2.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Распоряжение_Комитета_3.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Распоряжение_Комитета_4.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Распоряжение_Комитета_5.jpg" alt="лицей 144">
                   </div>
                 </a>
               </div>
@@ -61,56 +61,56 @@
                     <p class="content_item_artical_name">Заявка</p>
                   </div>
                   <div class="forImg" v-if="isVisible2">
-                    <img src="../assets/images/rip/Заявка.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Опыт_работы_1.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Опыт_работы_2.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Опыт_работы_3.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Опыт_работы_4.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Опыт_работы_5.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Опыт_работы_6.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Опыт_работы_7.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Опыт_работы_8.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Опыт_работы_9.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Опыт_работы_10.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Опыт_работы_11.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Опыт_работы_12.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Опыт_работы_13.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Опыт_работы_14.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Опыт_работы_15.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Опыт_работы_16.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Опыт_работы_17.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Опыт_работы_18.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Опыт_работы_19.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Опыт_работы_20.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Опыт_работы_21.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Динамика_1.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Динамика_2.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Проект_1.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Проект_2.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Проект_3.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Проект_4.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Проект_5.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Проект_6.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Проект_7.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Проект_8.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Проект_9.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Проект_10.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Проект_11.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Проект_12.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Проект_13.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Проект_14.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Проект_15.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Проект_16.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Проект_17.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Проект_18.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Проект_19.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Проект_20.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Проект_21.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Проект_22.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Проект_23.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Проект_24.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Проект_25.jpg" alt="лицей 144">
-                    <img src="../assets/images/rip/Информационная_справка.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Заявка.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Опыт_работы_1.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Опыт_работы_2.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Опыт_работы_3.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Опыт_работы_4.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Опыт_работы_5.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Опыт_работы_6.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Опыт_работы_7.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Опыт_работы_8.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Опыт_работы_9.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Опыт_работы_10.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Опыт_работы_11.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Опыт_работы_12.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Опыт_работы_13.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Опыт_работы_14.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Опыт_работы_15.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Опыт_работы_16.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Опыт_работы_17.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Опыт_работы_18.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Опыт_работы_19.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Опыт_работы_20.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Опыт_работы_21.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Динамика_1.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Динамика_2.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Проект_1.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Проект_2.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Проект_3.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Проект_4.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Проект_5.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Проект_6.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Проект_7.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Проект_8.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Проект_9.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Проект_10.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Проект_11.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Проект_12.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Проект_13.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Проект_14.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Проект_15.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Проект_16.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Проект_17.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Проект_18.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Проект_19.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Проект_20.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Проект_21.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Проект_22.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Проект_23.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Проект_24.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Проект_25.jpg" alt="лицей 144">
+                    <img src="../../assets/images/rip/Информационная_справка.jpg" alt="лицей 144">
                   </div>
                 </a>
               </div>
@@ -119,7 +119,7 @@
                   :href="`${publicPath}pdf/documents/rip/Приказ о создании рабочей группе.pdf`"
                  download="Приказ о создании рабочей группе.pdf">
                 <div id="content_item_img">
-                  <img src="../assets/images/download.png" alt="Скачать">
+                  <img src="../../assets/images/download.png" alt="Скачать">
                 </div>
                 <div id="content_item_name">
                   Приказ о создании рабочей группы
@@ -180,8 +180,8 @@
 // @ is an alias to /src
 //import MenuComp from '../components/MenuComp.vue'
 
-import headerContainer from "../components/headerContainer";
-import headerContainerSub from "../components/headerContainerSub";
+import headerContainer from "../../components/headerContainer";
+import headerContainerSub from "../../components/headerContainerSub";
 
 export default {
   name: 'RipHome',

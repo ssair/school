@@ -17,17 +17,6 @@
 
           </div>
 
-          <!--
-          <div id="page__header__name">
-
-            <div></div>
-            <div id="page__header__name__1">144 лицей</div>
-            <div id="page__header__name__2">Санкт-Петербург</div>
-            <div></div>
-
-          </div>
-          -->
-
         </router-link>
 
 

@@ -5,7 +5,7 @@
     <div id="home_section_grid_first_wrapper">
 
       <transition name="l_r_move">
-        <router-link tag="article" to="/school-teachers"
+        <router-link tag="article" to="/teachers"
                      class="home_section_grid_first_article is-visible"
                      id="item_0" aria-label="foto"
                      v-if="isVisible >= 1">

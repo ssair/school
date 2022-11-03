@@ -18,7 +18,7 @@
                            id="item_0" aria-label="foto"
                            v-if="isVisible >= 1">
                 <picture class="section_2_picture" id="item_0_img">
-                  <img src="../assets/images/our-teachers.jpg" alt="foto">
+                  <img src="../../assets/images/our-teachers.jpg" alt="foto">
                 </picture>
                 <div class="section_2_content" id="item_0_content">
                   <h2>Наши учителя</h2>
@@ -30,7 +30,7 @@
                          class="section_2_article"
                          id="item_1" aria-label="foto">
               <picture class="section_2_picture" id="item_1_img">
-                <img src="../assets/images/mathematics-989121_1920.png" alt="foto">
+                <img src="../../assets/images/mathematics-989121_1920.png" alt="foto">
               </picture>
               <div class="section_2_content" id="item_1_content">
                 <h2>Физико-математическое направление</h2>
@@ -43,7 +43,7 @@
                            id="item_2" aria-label="foto"
                            v-if="isVisible >= 1">
                 <picture class="section_2_picture" id="item_2_img">
-                  <img src="../assets/images/bird-2.jpg" alt="foto">
+                  <img src="../../assets/images/bird-2.jpg" alt="foto">
                 </picture>
               </router-link>
             </transition>
@@ -54,7 +54,7 @@
                            id="item_3" aria-label="foto"
                            v-if="isVisible >= 3">
                 <picture class="section_2_picture" id="item_3_img">
-                  <img src="../assets/images/engineer-lyceum.jpg" alt="foto">
+                  <img src="../../assets/images/engineer-lyceum.jpg" alt="foto">
                 </picture>
                 <div class="section_2_content" id="item_3_content">
                   <h2>Проекты</h2>
@@ -66,7 +66,7 @@
                          class="section_2_article"
                          id="item_4" aria-label="foto">
               <picture class="section_2_picture" id="item_4_img">
-                <img src="../assets/images/friends.jpg" alt="foto">
+                <img src="../../assets/images/friends.jpg" alt="foto">
               </picture>
             </router-link>
 
@@ -74,7 +74,7 @@
                          class="section_2_article"
                          id="item_5" aria-label="foto">
               <picture class="section_2_picture" id="item_5_img">
-                <img src="../assets/images/history-2.jpg" alt="foto">
+                <img src="../../assets/images/history-2.jpg" alt="foto">
               </picture>
             </router-link>
 
@@ -82,7 +82,7 @@
                          class="section_2_article"
                          id="item_6" aria-label="foto">
               <picture class="section_2_picture" id="item_6_img">
-                <img src="../assets/images/stikhi-2.jpg" alt="foto">
+                <img src="../../assets/images/stikhi-2.jpg" alt="foto">
               </picture>
             </router-link>
 
@@ -90,7 +90,7 @@
                          class="section_2_article"
                          id="item_7" aria-label="foto">
               <picture class="section_2_picture" id="item_7_img">
-                <img src="../assets/images/vpole-2.jpg" alt="foto">
+                <img src="../../assets/images/vpole-2.jpg" alt="foto">
               </picture>
             </router-link>
 
@@ -100,7 +100,7 @@
                            id="item_8" aria-label="foto"
                            v-if="isVisible >= 5">
                 <picture class="section_2_picture" id="item_8_img">
-                  <img src="../assets/images/venice.jpg" alt="foto">
+                  <img src="../../assets/images/venice.jpg" alt="foto">
                 </picture>
                 <div class="section_2_content" id="item_8_content">
                   <h2>Путешествия</h2>
@@ -152,7 +152,7 @@
         <section id="section_5" class="section_5">
           <transition name="slide-fade">
             <div id="section_5_wrapper" v-if="isVisible_5">
-              <img src="../assets/images/mathematics-989121_1920.png" alt="pi">
+              <img src="../../assets/images/mathematics-989121_1920.png" alt="pi">
               <div id="section_5_wrapper_text">
                 <p class="section_5_wrapper_p">Инженерное направление</p>
               </div>
@@ -703,7 +703,7 @@ export default {
 /* Секция section_4 */
 #section_4 {
   background-size:        cover;
-  background-image:       url("../assets/images/spb-petr.jpg");
+  background-image:       url("../../assets/images/spb-petr.jpg");
   position:               fixed;
   width:                  100%;
   height:                 100%;

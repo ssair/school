@@ -43,16 +43,16 @@
 
                 <transition-group name="list-complete-img" tag="div" key="aa">
                   <div class="img_container"  v-if="isScheduleVisible_5a" key="1">
-                    <img src="../assets/images/lyceum/schedule/5A.png">
+                    <img src="../../assets/images/lyceum/schedule/5A.png">
                   </div>
                   <div class="img_container"  v-if="isScheduleVisible_5b" key="2">
-                    <img src="../assets/images/lyceum/schedule/5B.png">
+                    <img src="../../assets/images/lyceum/schedule/5B.png">
                   </div>
                   <div class="img_container"  v-if="isScheduleVisible_5c" key="3">
-                    <img src="../assets/images/lyceum/schedule/5C.png">
+                    <img src="../../assets/images/lyceum/schedule/5C.png">
                   </div>
                   <div class="img_container"  v-if="isScheduleVisible_5d" key="4">
-                    <img src="../assets/images/lyceum/schedule/5D.png">
+                    <img src="../../assets/images/lyceum/schedule/5D.png">
                   </div>
                 </transition-group>
 
@@ -86,16 +86,16 @@
                 <transition-group name="list-complete-img" tag="div" key="bb">
 
                   <div class="img_container"  v-if="isScheduleVisible_6a">
-                    <img src="../assets/images/lyceum/schedule/6A.png">
+                    <img src="../../assets/images/lyceum/schedule/6A.png">
                   </div>
                   <div class="img_container"  v-if="isScheduleVisible_6b">
-                    <img src="../assets/images/lyceum/schedule/6B.png">
+                    <img src="../../assets/images/lyceum/schedule/6B.png">
                   </div>
                   <div class="img_container"  v-if="isScheduleVisible_6c">
-                    <img src="../assets/images/lyceum/schedule/6C.png">
+                    <img src="../../assets/images/lyceum/schedule/6C.png">
                   </div>
                   <div class="img_container"  v-if="isScheduleVisible_6d">
-                    <img src="../assets/images/lyceum/schedule/6D.png">
+                    <img src="../../assets/images/lyceum/schedule/6D.png">
                   </div>
 
                 </transition-group>
@@ -119,10 +119,10 @@
                 <transition-group name="list-complete-img" tag="div" key="bb">
 
                   <div class="img_container"  v-if="isScheduleVisible_7a">
-                    <img src="../assets/images/lyceum/schedule/7A.png">
+                    <img src="../../assets/images/lyceum/schedule/7A.png">
                   </div>
                   <div class="img_container"  v-if="isScheduleVisible_7b">
-                    <img src="../assets/images/lyceum/schedule/7B.png">
+                    <img src="../../assets/images/lyceum/schedule/7B.png">
                   </div>
 
                 </transition-group>
@@ -157,16 +157,16 @@
                 <transition-group name="list-complete-img" tag="div" key="dd">
 
                   <div class="img_container"  v-if="isScheduleVisible_8a">
-                    <img src="../assets/images/lyceum/schedule/8A.png">
+                    <img src="../../assets/images/lyceum/schedule/8A.png">
                   </div>
                   <div class="img_container"  v-if="isScheduleVisible_8b">
-                    <img src="../assets/images/lyceum/schedule/8B.png">
+                    <img src="../../assets/images/lyceum/schedule/8B.png">
                   </div>
                   <div class="img_container"  v-if="isScheduleVisible_8c">
-                    <img src="../assets/images/lyceum/schedule/8C.png">
+                    <img src="../../assets/images/lyceum/schedule/8C.png">
                   </div>
                   <div class="img_container"  v-if="isScheduleVisible_8d">
-                    <img src="../assets/images/lyceum/schedule/8D.png">
+                    <img src="../../assets/images/lyceum/schedule/8D.png">
                   </div>
 
                 </transition-group>
@@ -196,13 +196,13 @@
                 <transition-group name="list-complete-img" tag="div" key="ee">
 
                   <div class="img_container"  v-if="isScheduleVisible_9a">
-                    <img src="../assets/images/lyceum/schedule/9A.png">
+                    <img src="../../assets/images/lyceum/schedule/9A.png">
                   </div>
                   <div class="img_container"  v-if="isScheduleVisible_9b">
-                    <img src="../assets/images/lyceum/schedule/9B.png">
+                    <img src="../../assets/images/lyceum/schedule/9B.png">
                   </div>
                   <div class="img_container"  v-if="isScheduleVisible_9c">
-                    <img src="../assets/images/lyceum/schedule/9C.png">
+                    <img src="../../assets/images/lyceum/schedule/9C.png">
                   </div>
 
                 </transition-group>
@@ -226,10 +226,10 @@
                 <transition-group name="list-complete-img" tag="div" key="ff">
 
                   <div class="img_container"  v-if="isScheduleVisible_10a">
-                    <img src="../assets/images/lyceum/schedule/10A.png">
+                    <img src="../../assets/images/lyceum/schedule/10A.png">
                   </div>
                   <div class="img_container"  v-if="isScheduleVisible_10b">
-                    <img src="../assets/images/lyceum/schedule/10B.png">
+                    <img src="../../assets/images/lyceum/schedule/10B.png">
                   </div>
 
                 </transition-group>
@@ -253,10 +253,10 @@
                 <transition-group name="list-complete-img" tag="div" key="gg">
 
                   <div class="img_container"  v-if="isScheduleVisible_11a">
-                    <img src="../assets/images/lyceum/schedule/11A.png">
+                    <img src="../../assets/images/lyceum/schedule/11A.png">
                   </div>
                   <div class="img_container"  v-if="isScheduleVisible_11b">
-                    <img src="../assets/images/lyceum/schedule/11B.png">
+                    <img src="../../assets/images/lyceum/schedule/11B.png">
                   </div>
 
                 </transition-group>
@@ -277,7 +277,7 @@
 
 <script>
 
-import headerContainer from "../components/headerContainer";
+import headerContainer from "../../components/headerContainer";
 
 export default {
   data: function () {

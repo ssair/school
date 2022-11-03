@@ -45,16 +45,16 @@
 
                 <transition-group name="list-complete-img" tag="div" key="aa">
                   <div class="img_container"  v-if="isScheduleVisible_1a" key="1">
-                    <img src="../assets/images/lyceum/schedule/schedule_01A.png">
+                    <img src="../../assets/images/lyceum/schedule/schedule_01A.png">
                   </div>
                   <div class="img_container"  v-if="isScheduleVisible_1b" key="2">
-                    <img src="../assets/images/lyceum/schedule/schedule_01B.png">
+                    <img src="../../assets/images/lyceum/schedule/schedule_01B.png">
                   </div>
                   <div class="img_container"  v-if="isScheduleVisible_1c" key="3">
-                    <img src="../assets/images/lyceum/schedule/schedule_01C.png">
+                    <img src="../../assets/images/lyceum/schedule/schedule_01C.png">
                   </div>
                   <div class="img_container"  v-if="isScheduleVisible_1d" key="4">
-                    <img src="../assets/images/lyceum/schedule/schedule_01D.png">
+                    <img src="../../assets/images/lyceum/schedule/schedule_01D.png">
                   </div>
                 </transition-group>
 
@@ -88,16 +88,16 @@
                 <transition-group name="list-complete-img" tag="div" key="bb">
 
                   <div class="img_container"  v-if="isScheduleVisible_2a">
-                    <img src="../assets/images/lyceum/schedule/schedule_02A.png">
+                    <img src="../../assets/images/lyceum/schedule/schedule_02A.png">
                   </div>
                   <div class="img_container"  v-if="isScheduleVisible_2b">
-                    <img src="../assets/images/lyceum/schedule/schedule_02B.png">
+                    <img src="../../assets/images/lyceum/schedule/schedule_02B.png">
                   </div>
                   <div class="img_container"  v-if="isScheduleVisible_2c">
-                    <img src="../assets/images/lyceum/schedule/schedule_02C.png">
+                    <img src="../../assets/images/lyceum/schedule/schedule_02C.png">
                   </div>
                   <div class="img_container"  v-if="isScheduleVisible_2d">
-                    <img src="../assets/images/lyceum/schedule/schedule_02D.png">
+                    <img src="../../assets/images/lyceum/schedule/schedule_02D.png">
                   </div>
 
                 </transition-group>
@@ -132,7 +132,7 @@
                 <transition-group name="list-complete-img" tag="div" key="cc">
 
                   <div class="img_container_temp"  v-if="isScheduleVisible_3a">
-                    <img src="../assets/images/lyceum/schedule/schrdule_3.jpg">
+                    <img src="../../assets/images/lyceum/schedule/schrdule_3.jpg">
                   </div>
 
                 </transition-group>
@@ -167,7 +167,7 @@
                 <transition-group name="list-complete-img" tag="div" key="cc">
 
                   <div class="img_container_temp"  v-if="isScheduleVisible_4a">
-                    <img src="../assets/images/lyceum/schedule/schrdule_4.jpg">
+                    <img src="../../assets/images/lyceum/schedule/schrdule_4.jpg">
                   </div>
 
                 </transition-group>
@@ -188,7 +188,7 @@
 </template>
 
 <script>
-import headerContainer from "../components/headerContainer";
+import headerContainer from "../../components/headerContainer";
 
 export default {
   data: function () {

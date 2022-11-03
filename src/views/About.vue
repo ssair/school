@@ -50,7 +50,7 @@
                 <p class="content_item_name">Стипендии</p>
               </router-link>
 
-              <router-link to="/paid-educational-services" tag="li" class="content_item">
+              <router-link to="/about/education/paid_services" tag="li" class="content_item">
                 <p class="content_item_name">Платные образовательные услуги</p>
               </router-link>
 

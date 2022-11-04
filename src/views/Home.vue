@@ -12,6 +12,8 @@
 
         <home-section-grid-first></home-section-grid-first>
 
+        <home-section-grid-second></home-section-grid-second>
+
         <home-section-projects></home-section-projects>
 
         <section id="section_4"></section>
@@ -29,6 +31,7 @@
 
 import homeSectionProjects from '@/components/homeSectionProjects.vue'
 import homeSectionGridFirst from "@/components/homeSectionGridFirst"
+import homeSectionGridSecond from "@/components/homeSectionGridSecond";
 import homeSectionPictureMove from "@/components/homeSectionPictureMove"
 
 export default {
@@ -36,7 +39,8 @@ export default {
 
   components: { homeSectionProjects,
                 homeSectionGridFirst,
-                homeSectionPictureMove
+                homeSectionPictureMove,
+                homeSectionGridSecond
   },
 
   data() {

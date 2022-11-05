@@ -270,7 +270,7 @@
                                class="content_item_subname is_hover" style="padding-bottom: 9px">
                     Структурное подразделение ОДОД
                   </router-link>
-                  <router-link to="/about/education/paid_services" tag="p"
+                  <router-link to="/about/education/paid-services" tag="p"
                                class="content_item_subname is_hover" style="padding-bottom: 9px">
                     Система дополнительных образовательных услуг
                   </router-link>

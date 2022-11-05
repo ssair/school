@@ -4,108 +4,131 @@
 
     <div id="home_section_grid_first_wrapper">
 
-      <transition name="l_r_move">
-        <router-link tag="article" to="/teachers"
-                     class="home_section_grid_first_article is-visible"
-                     id="item_0" aria-label="foto"
-                     v-if="isVisible >= 1">
-          <picture class="home_section_grid_first_picture" id="item_0_img">
-            <img src="../assets/images/our-teachers.jpg" alt="foto">
-          </picture>
-          <div class="home_section_grid_first_content" id="item_0_content">
+      <router-link tag="article" to="/teachers"
+                   class="home_section_grid_first_article is-visible"
+                   id="item_0" aria-label="foto">
+        <transition name="l_r_move">
+          <picture class="home_section_grid_first_picture" id="item_0_img"
+                   v-if="isVisible >= 1">
+              <img src="../assets/images/our-teachers.jpg" alt="foto">
+            </picture>
+        </transition>
+        <transition name="l_r_move">
+          <div class="home_section_grid_first_content" id="item_0_content"
+               v-if="isVisible >= 1">
             <h2>Наши учителя</h2>
           </div>
-        </router-link>
-      </transition>
+        </transition>
+      </router-link>
+
 
       <router-link tag="article" to="/"
                    class="home_section_grid_first_article"
                    id="item_1" aria-label="foto">
-        <picture class="home_section_grid_first_picture" id="item_1_img">
-          <img src="../assets/images/mathematics-989121_1920.png" alt="foto">
-        </picture>
-        <div class="home_section_grid_first_content" id="item_1_content">
-          <h2>Физико-математическое направление</h2>
-        </div>
+        <transition name="d_u_move">
+          <picture class="home_section_grid_first_picture" id="item_1_img"
+                   v-if="isVisible >= 1">
+            <img src="../assets/images/mathematics-989121_1920.png" alt="foto">
+          </picture>
+        </transition>
+        <transition name="d_u_move">
+          <div class="home_section_grid_first_content" id="item_1_content"
+               v-if="isVisible >= 1">
+            <h2>Физико-математическое направление</h2>
+          </div>
+        </transition>
       </router-link>
 
-      <transition name="d_u_move">
-        <router-link tag="article" to="/"
-                     class="home_section_grid_first_article is-visible"
-                     id="item_2" aria-label="foto"
-                     v-if="isVisible >= 1">
-          <picture class="home_section_grid_first_picture" id="item_2_img">
+      <router-link tag="article" to="/"
+                   class="home_section_grid_first_article is-visible"
+                   id="item_2" aria-label="foto">
+        <transition name="r_l_move">
+          <picture class="home_section_grid_first_picture" id="item_2_img"
+                   v-if="isVisible >= 1">
             <img src="../assets/images/bird-2.jpg" alt="foto">
           </picture>
-        </router-link>
-      </transition>
+        </transition>
+      </router-link>
 
-      <transition name="d_u_move">
-        <router-link tag="article" to="/"
-                     class="home_section_grid_first_article is-visible"
-                     id="item_3" aria-label="foto"
-                     v-if="isVisible >= 2">
-          <picture class="home_section_grid_first_picture" id="item_3_img">
+      <router-link tag="article" to="/"
+                   class="home_section_grid_first_article is-visible"
+                   id="item_3" aria-label="foto">
+        <transition name="l_r_move">
+          <picture class="home_section_grid_first_picture" id="item_3_img"
+                   v-if="isVisible >= 4">
             <img src="../assets/images/engineer-lyceum.jpg" alt="foto">
           </picture>
-          <div class="home_section_grid_first_content" id="item_3_content">
+        </transition>
+        <transition name="l_r_move">
+        <div class="home_section_grid_first_content" id="item_3_content"
+             v-if="isVisible >= 4">
             <h2>Проекты</h2>
           </div>
-        </router-link>
-      </transition>
+        </transition>
+      </router-link>
+
 
       <router-link tag="article" to="/"
                    class="home_section_grid_first_article"
                    id="item_4" aria-label="foto">
-        <picture class="home_section_grid_first_picture" id="item_4_img">
-          <img src="../assets/images/friends.jpg" alt="foto">
-        </picture>
+        <transition name="d_u_move">
+          <picture class="home_section_grid_first_picture" id="item_4_img"
+                   v-if="isVisible >= 4">
+            <img src="../assets/images/friends.jpg" alt="foto">
+          </picture>
+        </transition>
       </router-link>
 
-      <transition name="r_l_move">
       <router-link tag="article" to="/"
                    class="home_section_grid_first_article"
                    id="item_5" aria-label="foto"
                    v-if="isVisible >= 2">
-        <picture class="home_section_grid_first_picture" id="item_5_img">
-          <img src="../assets/images/history-2.jpg" alt="foto">
-        </picture>
+        <transition name="r_l_move">
+          <picture class="home_section_grid_first_picture" id="item_5_img"
+                   v-if="isVisible >= 4">
+            <img src="../assets/images/history-2.jpg" alt="foto">
+          </picture>
+        </transition>
       </router-link>
-      </transition>
 
-      <transition name="l_r_move">
       <router-link tag="article" to="/"
                    class="home_section_grid_first_article"
-                   id="item_6" aria-label="foto"
-                   v-if="isVisible >= 3">
-        <picture class="home_section_grid_first_picture" id="item_6_img">
-          <img src="../assets/images/stikhi-2.jpg" alt="foto">
-        </picture>
+                   id="item_6" aria-label="foto">
+        <transition name="l_r_move">
+          <picture class="home_section_grid_first_picture" id="item_6_img"
+                   v-if="isVisible >= 7">
+            <img src="../assets/images/stikhi-2.jpg" alt="foto">
+          </picture>
+        </transition>
       </router-link>
-      </transition>
-
 
       <router-link tag="article" to="/"
                    class="home_section_grid_first_article"
                    id="item_7" aria-label="foto">
-        <picture class="home_section_grid_first_picture" id="item_7_img">
-          <img src="../assets/images/vpole-2.jpg" alt="foto">
-        </picture>
+        <transition name="d_u_move">
+          <picture class="home_section_grid_first_picture" id="item_7_img"
+                   v-if="isVisible >= 7">
+            <img src="../assets/images/vpole-2.jpg" alt="foto">
+          </picture>
+        </transition>
       </router-link>
 
-      <transition name="d_u_move">
-        <router-link tag="article" to="/"
-                     class="home_section_grid_first_article is-visible"
-                     id="item_8" aria-label="foto"
-                     v-if="isVisible >= 3">
-          <picture class="home_section_grid_first_picture" id="item_8_img">
+      <router-link tag="article" to="/"
+                   class="home_section_grid_first_article is-visible"
+                   id="item_8" aria-label="foto">
+        <transition name="r_l_move">
+          <picture class="home_section_grid_first_picture" id="item_8_img"
+                   v-if="isVisible >= 7">
             <img src="../assets/images/venice.jpg" alt="foto">
           </picture>
-          <div class="home_section_grid_first_content" id="item_8_content">
+        </transition>
+        <transition name="r_l_move">
+          <div class="home_section_grid_first_content" id="item_8_content"
+               v-if="isVisible >= 7">
             <h2>Путешествия</h2>
           </div>
-        </router-link>
-      </transition>
+        </transition>
+      </router-link>
 
     </div>
 
@@ -287,14 +310,14 @@ export default {
   min-height:             40vh;
   max-height:             40vh;
   background-size:        cover;
-  background:             linear-gradient( #bbb, transparent 1px),
-  linear-gradient( 90deg, #bbb, transparent 1px);
-  background-size:        29px 29px;
-  background-color:       #fff;
   display:                grid;
 }
 #item_1_img > img {
   object-position:        left;
+  background:             linear-gradient( #bbb, transparent 1px),
+  linear-gradient( 90deg, #bbb, transparent 1px);
+  background-size:        29px 29px;
+  background-color:       #fff;
 }
 
 #item_1_content {

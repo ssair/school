@@ -4,7 +4,6 @@
 
     <div id="home_section_grid_second_wrapper">
 
-
       <router-link tag="article" to="/teachers"
                    class="home_section_grid_second_article"
                    id="item_0" aria-label="foto">
@@ -39,7 +38,6 @@
         </transition>
       </router-link>
 
-
       <router-link tag="article" to="/"
                    class="home_section_grid_second_article"
                    id="item_2" aria-label="foto">
@@ -50,8 +48,6 @@
           </picture>
         </transition>
       </router-link>
-
-
 
       <router-link tag="article" to="/"
                      class="home_section_grid_second_article"
@@ -284,7 +280,6 @@ export default {
 
 #item_0 {
   grid-area:              Item0;
-  height:                 40vh;
   min-height:             40vh;
   max-height:             40vh;
   display:                grid;
@@ -459,7 +454,7 @@ export default {
 
 .d_u_move-enter-from,
 .d_u_move-leave-to {
-  transform: translateY(50px);
+  transform: translateY(150px);
   opacity: 0;
 }
 

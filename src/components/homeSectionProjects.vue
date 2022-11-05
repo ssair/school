@@ -3,7 +3,7 @@
   <div class="home_section_projects">
 
     <router-link tag="article"
-                 to="/school-teachers"
+                 to="/"
                  id="home_section_projects_wrapper">
 
       <div id="home_section_projects_header">

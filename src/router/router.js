@@ -17,6 +17,7 @@ import AboutEducationProgramSecondary from '../views/AboutEducationProgramSecond
 import AboutEducationWorkProgramPrimary from '../views/AboutEducationWorkProgramPrimary.vue'
 import AboutEducationWorkProgramSecondary from '../views/AboutEducationWorkProgramSecondary.vue'
 import AboutEducationPaidServices from '../views/AboutEducationPaidServices.vue'
+import PageNotFound from "@/views/PageNotFound";
 
 const routes = [
   {
@@ -102,9 +103,17 @@ const routes = [
     props: true
   },
   {
-    path: '/about/education/paid_services',
+    path: '/about/education/paid-services',
     name: 'AboutEducationPaidServices',
     component: AboutEducationPaidServices
+  },
+  { path: '/page-not-found',
+    name: 'PageNotFound',
+    component: PageNotFound
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    redirect: "/page-not-found"
   }
 ]
 
